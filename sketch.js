@@ -11,11 +11,13 @@ let creature = ['a troll', 'a gargoyle', 'a serpant', 'a witch', 'a dark elf', '
 
 
 
+
 let dr;
 let ac;
 let wp;
 let aet;
 let cr;
+let myFont;
 
 //let sr;
 
@@ -26,16 +28,17 @@ let bc = 250;
 
 let wrds;
 
+myFont = loadFont('assets/fonts/YatraOne-Regular.ttf');
 
 //setup function
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(500, 500);
   background(0);
   frameRate(60);
   intText();
   fortBall();
   //console.log(mood[int(random(mood.length))]);
-  //console.log(action[4]) 
+  //console.log(action[4])
   //arrays start at zero
   //console.log(creature.length);
 
@@ -48,26 +51,26 @@ function draw() {
 }
 
 function mousePressed() {
-  
+
   dr = int(random(roll.length));
   ac = int(random(action.length));
   wp = int(random(weapon.length));
   at = int(random(actiont.length));
   cr = int(random(creature.length));
-  
+
   wrds = roll[dr]  +  '   ' + action[ac] + ' ' + weapon[wp] + ' '+ actiont[at] + ' ' + creature[cr] + '.';
-  
-  
-  // add spaces for space 
-  
+
+
+  // add spaces for space
+
   rc = random(250);
   gc = random(250);
   bc = random(255);
   fortText();
   console.log(wrds);
-   
 
-  
+
+
 }
 
 function fortBall() {
