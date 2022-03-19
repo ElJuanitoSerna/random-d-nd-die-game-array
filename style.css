@@ -12,7 +12,7 @@ html, body {
 }
 
 h1 {
-  color: yellow;
+  color: black;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@ h2 {
 
 p {
   font-family: YatraOne-Regular.ttf;
-  font-size: 10px 30px;
+  font-size: 30px;
 }
 
 
