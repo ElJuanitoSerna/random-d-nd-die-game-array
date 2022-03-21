@@ -1,10 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 html, body {
   margin: 0;
   padding: 0;
   background-image: url(./ASSETS/background/Tavernbackground.jpeg);
   background-color: ;
 }
-
+canvas {
+  display: block;
+  padding-top: 20px
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px
+}
 
 .box {
   background-image: url(./ASSETS/background/Tavernbackground.jpeg);
@@ -22,20 +31,25 @@ h2 {
 }
 
 p {
-  font-family: YatraOne-Regular.ttf;
-  font-size: 30px;
+  font-family: 'Yatra One', cursive;
+  font-size: 60px;
 }
 
 
 .randomizerButton {
-  padding: 40px;
+  font-family: 'Yatra One', cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px
+  padding: 200px;
+  font-size: 20px;
   background-color: #ffff00;
 }
 .row {
   display: flex;
 }
 
-.column {
-  margin:10px;
+
   flex: 50%;
 }
