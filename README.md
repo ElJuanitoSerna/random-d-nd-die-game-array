@@ -1,2 +1,2 @@
 # random-d-nd-die-game-array
-A randomizer die game
+A click your adventure in a midevil world. 
