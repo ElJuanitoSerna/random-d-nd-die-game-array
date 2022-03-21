@@ -1,13 +1,13 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image: url(../ASSETS/background/Tavernbackground.jpeg);
+  background-image: url(./ASSETS/background/Tavernbackground.jpeg);
   background-color: ;
 }
 
 
 .box {
-  background-image: url(../ASSETS/background/Tavernbackground.jpeg);
+  background-image: url(./ASSETS/background/Tavernbackground.jpeg);
   background-size: center;
 }
 

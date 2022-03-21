@@ -23,7 +23,7 @@ let button;
 let addMoreButton;
 let centerPicture;
 let cnv;
-let nameInputs = [];
+//let nameInputs = [];
 //let canvas;
 
 
@@ -38,7 +38,7 @@ function setup() {
   textFont(myFont);
   textSize(25);
   cnv = createCanvas(1000, 1000);
-  cnv.parent("#canvasDiv");
+  //cnv.parent("#canvasDiv");
 
   background(66, 40, 14);
   frameRate(60);
@@ -50,7 +50,7 @@ function setup() {
   //addMoreButton.mousePresses(buttonPressed);
   //
   for(let i =0; i <3; i++){
-  nameInputs.push(createInput());
+  //nameInputs.push(createInput());
   //nameInputs[nameInputs. length - 1}.parent("#inputFields")
 }
   //let canvas = createCanvas(windowWidth *0.5, (windowWidth*0.5)*1.250);
