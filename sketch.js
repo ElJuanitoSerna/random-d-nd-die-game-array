@@ -20,7 +20,10 @@ let cr;
 let myFont;
 let wrds;
 let button;
+let addMoreButton;
 let centerPicture;
+let cnv;
+let nameInputs = [];
 //let canvas;
 
 
@@ -34,14 +37,22 @@ function setup() {
   fill('255');
   textFont(myFont);
   textSize(25);
-  createCanvas(1000, 1000);
+  cnv = createCanvas(1000, 1000);
+  cnv.parent("#canvasDiv");
+
   background(66, 40, 14);
   frameRate(60);
   intText();
-  button = createButton("Click to start your next Adventure")
+  //button = createButton("Click to start your next Adventure")
+  button = select('#randButton')
   button.mousePressed(buttonPressed);
-  button.class ("randomizerButton");
-
+  button.class("randomizerButton");
+  //addMoreButton.mousePresses(buttonPressed);
+  //
+  for(let i =0; i <3; i++){
+  nameInputs.push(createInput());
+  //nameInputs[nameInputs. length - 1}.parent("#inputFields")
+}
   //let canvas = createCanvas(windowWidth *0.5, (windowWidth*0.5)*1.250);
 
 }

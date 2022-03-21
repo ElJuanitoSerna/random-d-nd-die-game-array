@@ -31,3 +31,11 @@ p {
   padding: 40px;
   background-color: #ffff00;
 }
+.row {
+  display: flex;
+}
+
+.column {
+  margin:10px;
+  flex: 50%;
+}
