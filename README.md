@@ -16,5 +16,5 @@ I used images from The Met free source materials.
 Used GoogleFonts Yatra One 1 style
 by Catherine Leigh Schmidt
 
-using natrual earth tonre pallets of black, beige and yellow.
+using natrual earth tones pallets of black, beige and yellow.
 
